@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%23171717%22/%3E%3Cpath d=%22M16 5l3.2 7 7.6.7-5.8 5 1.8 7.4L16 21.2 9.2 25.1 11 17.7l-5.8-5 7.6-.7z%22 fill=%22%23f7e26b%22/%3E%3C/svg%3E">
+<title>David Lee Portfolio</title>
+<meta name="description" content="David Lee, learning strategy, AI implementation and immersive experience design. Take the drive through a city of work.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,900&family=Poppins:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="city.css">
+
+</head>
+<body>
+<div id="track">
+  <div id="stage">
+    <canvas id="world" aria-hidden="true"></canvas>
+
+    <header class="hud">
+      <a class="brand" href="#start">David Lee</a>
+      <nav class="route" aria-label="Stops on the route">
+        <ol>
+          <li><button type="button" data-go="0" aria-current="step"><span class="pip"></span><span class="lbl">Start</span></button></li>
+          <li><button type="button" data-go="1"><span class="pip"></span><span class="lbl">AI Implementation</span></button></li>
+          <li><button type="button" data-go="2"><span class="pip"></span><span class="lbl">Learning Strategy</span></button></li>
+          <li><button type="button" data-go="3"><span class="pip"></span><span class="lbl">Team Leadership</span></button></li>
+          <li><button type="button" data-go="4"><span class="pip"></span><span class="lbl">Immersive Design</span></button></li>
+          <li class="sub"><button type="button" data-go="5"><span class="pip"></span><span class="lbl">Showcase</span></button></li>
+          <li class="sub"><button type="button" data-go="6"><span class="pip"></span><span class="lbl sr">Showcase 2</span></button></li>
+          <li class="sub"><button type="button" data-go="7"><span class="pip"></span><span class="lbl sr">Showcase 3</span></button></li>
+          <li class="sub"><button type="button" data-go="8"><span class="pip"></span><span class="lbl sr">Showcase 4</span></button></li>
+          <li><button type="button" data-go="9"><span class="pip"></span><span class="lbl">Contact</span></button></li>
+        </ol>
+      </nav>
+      <p class="tally" aria-label="Stars collected on the drive"><span class="tally-star" aria-hidden="true">&#9733;</span> <span id="tally">0</span>/12</p>
+    </header>
+
+    <main class="cards">
+
+      <article class="stop stop--hero is-active" id="start">
+        <div class="hero-top">
+          <img class="avatar" src="img/avatar.jpg" alt="David Lee" width="84" height="84">
+          <div>
+            <p class="sign">Portfolio <b>2026</b></p>
+            <h1>Hi, I'm <mark>David Lee</mark></h1>
+          </div>
+        </div>
+        <p class="tagline"><span>Learning Strategy,</span> <span class="o">design,</span> <span class="o">innovation</span> <span>&amp;</span> <span class="o">leadership.</span></p>
+        <p class="lede">I design capability strategy for global businesses, build AI into the way learning gets made, and bring the craft of immersive experience design into leadership development.</p>
+        <p class="route-note"><span class="kbd-arrow" aria-hidden="true"></span>Scroll to drive. Explore the world of my work.</p>
+      </article>
+
+      <article class="stop" id="ai">
+        <p class="sign">Stop 1 <b>AI Works</b></p>
+        <h2>AI implementation and upskilling</h2>
+        <p class="lede">Single Threaded Leader for implementing AI across Amazon Global Operations' learning function, from Learning Designer workflows to senior leader capability.</p>
+        <ul class="facts">
+          <li>Built an <strong>AI digital twin</strong> of the design team, roughly <strong>3x faster</strong> from intake to delivery against the manual baseline.</li>
+          <li>Set the strategy for <strong>18 designers</strong> moving from manual authoring to AI-assisted design, with the change management and capability build to make it stick.</li>
+          <li>Led a programme to build <strong>AI capability in senior leaders</strong>, with adoption that is effective, responsible and tied to business impact.</li>
+        </ul>
+        <ul class="chips" aria-label="Tools"><li>AWS Bedrock</li><li>Claude</li><li>ChatGPT</li><li>Synthesia</li><li>Articulate 360</li></ul>
+      </article>
+
+      <article class="stop" id="strategy">
+        <p class="sign">Stop 2 <b>Strategy House</b></p>
+        <h2>Learning strategy for organisations</h2>
+        <p class="lede">I work on how a whole function builds capability, from diagnosing the real gap through to proving business impact.</p>
+        <ul class="facts">
+          <li>Set the <strong>leadership learning strategy</strong> for Global Orgs, a leadership population of <strong>200,000+</strong>.</li>
+          <li>Curriculum Design, Example: Data Management, delivered a <strong>335% proficiency lift</strong> measured pre and post.</li>
+          <li>Led learning strategy for Pizza Hut Europe across <strong>25 countries</strong>, introducing a new LMS to standardise and scale training.</li>
+        </ul>
+        <ol class="steps" aria-label="How I approach strategy"><li>Diagnose</li><li>Architect</li><li>Embed</li><li>Measure</li></ol>
+      </article>
+
+      <article class="stop" id="teams">
+        <p class="sign">Stop 3 <b>The Coach House</b></p>
+        <h2>Team leadership and coaching</h2>
+        <p class="lede">Leading, coaching and developing learning designers at Amazon, Shell Energy and Pizza Hut Europe.</p>
+        <ul class="facts">
+          <li>At Amazon, led a team of <strong>Senior Learning Experience Designers</strong>, owning the strategy, architecture and delivery of executive learning across Operations, Central Services and Technology.</li>
+          <li>At Shell Energy, coached the Digital Design team through the move from face to face to <strong>scalable digital learning</strong>, designing team processes and building digital capability.</li>
+          <li>Qualified Higher Education teacher with a <strong>PGCert HE</strong>, and a <strong>Fellow of the Higher Education Academy</strong>.</li>
+        </ul>
+      </article>
+
+      <article class="stop" id="immersive">
+        <p class="sign sign--brown">Stop 4 <b>Immersive Park</b></p>
+        <h2>Immersive experience design for learning</h2>
+        <p class="lede">Theme parks, escape rooms and immersive theatre are my inspiration. I combine emotional connection with immersive design, so people remember the learning and act on it back in the day job.</p>
+        <ul class="facts">
+          <li>Fully themed, in-person <strong>executive simulations</strong> using projections, interactive video, board game formats, live actors and gamification.</li>
+          <li>Designed and built <strong>interactive museum exhibits</strong> and <strong>escape rooms</strong>, with freelance design for the NHS, PlayStation Europe and various UK museums.</li>
+          <li>Led <strong>virtual simulation environments</strong> at the University of Hertfordshire. MA Interactive Media / Digital Storytelling, <strong>Distinction</strong>.</li>
+        </ul>
+        <ul class="chips" aria-label="Methods"><li>AGES model</li><li>5Di</li><li>ARG simulation design</li></ul>
+      </article>
+
+      <article class="stop stop--case" id="executive-simulation" style="--case:var(--blue)">
+        <p class="sign sign--brown">Showcase Row <b>1 of 4</b></p>
+        <p class="kicker">Interactive design</p>
+        <h2>Executive Simulation</h2>
+        <button type="button" class="shot-btn" aria-label="Enlarge image"><img class="shot" src="img/exec-simulation.jpg" alt="Four leaders around a table working through the simulation's board game and decision cards" width="1200" height="554" loading="lazy"></button>
+        <p class="lede">Design of senior leadership programmes that place leaders inside fully themed simulation with ARG-style design to give every decision visible, escalating consequences. Brought to life with gamification, interactive multimedia, board games and live actors.</p>
+        <dl class="case-grid">
+          <div><dt>Approach</dt><dd>Simulation architecture built on the AGES model, delivered through multimodal in-person experiences.</dd></div>
+          <div><dt>Outcome</dt><dd><strong>+83 NPS</strong> and <strong>97% positive learner sentiment</strong> across the first year of delivery. Adopted as the organisation's flagship reference model for leadership development.</dd></div>
+        </dl>
+        <p class="note">Programme name and client identity anonymised at the client's request.</p>
+      </article>
+
+      <article class="stop stop--case" id="ai-fluency" style="--case:var(--clay)">
+        <p class="sign sign--brown">Showcase Row <b>2 of 4</b></p>
+        <p class="kicker">AI capability</p>
+        <h2>AI Fluency Programme</h2>
+        <button type="button" class="shot-btn" aria-label="Enlarge image"><img class="shot" src="img/CREW.jpg" alt="Line-art illustration of four crew members on a digital grid, titled Building your crew" width="1280" height="720" loading="lazy"></button>
+        <p class="lede">A capability-building initiative for senior leaders across a global operations function, moving AI from a talking point to a working tool, used responsibly and with a clear line to business results.</p>
+        <dl class="case-grid">
+          <div><dt>Approach</dt><dd>Practical, workflow-embedded learning built around decisions leaders already had to make, structured around the four skills of the CREW framework.</dd></div>
+          <div><dt>Outcome</dt><dd>Leaders adopted AI into day-to-day decisions with a clearer sense of where it helps, and where it doesn't.</dd></div>
+        </dl>
+        <ol class="steps steps--crew" aria-label="The CREW framework"><li data-l="C">Context</li><li data-l="R">Request</li><li data-l="E">Expectations</li><li data-l="W">Who checks</li></ol>
+        <p class="note">Internal materials and tooling are confidential and have been omitted.</p>
+      </article>
+
+      <article class="stop stop--case" id="task-people" style="--case:var(--sage)">
+        <p class="sign sign--brown">Showcase Row <b>3 of 4</b></p>
+        <p class="kicker">Digital simulation</p>
+        <h2>Task &amp; People Balance</h2>
+        <button type="button" class="shot-btn" aria-label="Enlarge image"><img class="shot" src="img/task-people.jpg" alt="Simulation screen combining a warehouse picking task with a people leadership dialogue choice" width="1200" height="678" loading="lazy"></button>
+        <p class="lede">A digital simulation that mirrors the struggle of carrying out important tasks while balancing people leadership. Simulated task work runs alongside gamified, scored role play.</p>
+        <dl class="case-grid">
+          <div><dt>Approach</dt><dd>Digital task simulation paired with scored role play, built to surface the trade-offs leaders face daily.</dd></div>
+          <div><dt>Outcome</dt><dd>Used alongside existing training to open up conversation around ingrained mental models.</dd></div>
+        </dl>
+        <p class="note">Programme name and client identity anonymised at the client's request.</p>
+      </article>
+
+      <article class="stop stop--case" id="safety-training" style="--case:var(--indigo)">
+        <p class="sign sign--brown">Showcase Row <b>4 of 4</b></p>
+        <p class="kicker">Gamified compliance</p>
+        <h2>Gamified Safety Training</h2>
+        <button type="button" class="shot-btn" aria-label="Enlarge image"><img class="shot" src="img/safety-training.jpg" alt="Night-time themed city street with a Click here to start prompt" width="1200" height="674" loading="lazy"></button>
+        <p class="lede">An annual safety training programme reimagined around a licensed superhero theme, with the client's permission. Delivered as a game with hidden prizes to find and live inter-site competition on scores.</p>
+        <dl class="case-grid">
+          <div><dt>Approach</dt><dd>Existing compliance content rebuilt as a themed, competitive game, with hidden in-experience rewards driving repeat engagement.</dd></div>
+          <div><dt>Outcome</dt><dd>Completion rates reached an all-time high, and ended the previous pattern of managers completing the training on behalf of their staff to save time.</dd></div>
+        </dl>
+        <p class="note">Client identity anonymised. Licensed IP used with the client's permission for internal training only, and not reproduced here.</p>
+      </article>
+
+      <article class="stop stop--end" id="contact">
+        <p class="sign">Destination <b>reached</b></p>
+        <h2>Let's talk about your learning problem.</h2>
+        <p class="lede">Full project detail, references and a walkthrough of my design process are available on request.</p>
+        <div class="contact">
+          <p class="contact-row"><span class="k">Email</span><a id="email" href="mailto:David.Gavin.Lee@gmail.com">David.Gavin.Lee@gmail.com</a><button type="button" class="copy" data-copy="David.Gavin.Lee@gmail.com" data-target="email">Copy</button></p>
+          <p class="contact-row"><span class="k">LinkedIn</span><a href="https://www.linkedin.com/in/DavidgLee" target="_blank" rel="noopener">linkedin.com/in/DavidgLee</a></p>
+        </div>
+        <details class="log">
+          <summary>The road so far</summary>
+          <ol>
+            <li><span>2026 to present</span>Single Threaded Leader, AI Implementation &amp; Curriculum Design, Amazon</li>
+            <li><span>2021 to 2026</span>Learning Design Manager, Amazon</li>
+            <li><span>2020 to 2021</span>Digital Design Lead, Shell Energy</li>
+            <li><span>2018 to 2020</span>Senior Learning Experience Manager, Amazon</li>
+            <li><span>2015 to 2018</span>Senior Instructional Designer, Pizza Hut Europe</li>
+            <li><span>2007 to 2015</span>Lecturer, eLearning Designer &amp; Learning Technologist, University of Hertfordshire</li>
+          </ol>
+          <p class="quals">MA Interactive Media / Digital Storytelling (Distinction) &middot; PGCert Higher Education, FHEA &middot; BSc (Hons) Interactive Systems and Multimedia &middot; HND Computer Science</p>
+          <p class="quals">Also: Eldritch Media, my independent learning design consultancy, and L&amp;D Prompted, a podcast on AI in learning design.</p>
+        </details>
+      </article>
+
+    </main>
+
+    <div class="zoom" id="zoom" hidden>
+      <img id="zoom-img" src="" alt="">
+      <p class="zoom-cap" id="zoom-cap"></p>
+    </div>
+  </div>
+</div>
+
+<script src="scene.js" defer></script>
+<script src="buildings.js" defer></script>
+<script src="drive.js" defer></script>
+</body>
+</html>
